@@ -1,0 +1,105 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* === HEADER === */
+.site-header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* === SECCIÓN DE BIENVENIDA === */
+.bienvenida {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.contenedor-bienvenida {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo-escuela {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* === MENÚ DE NAVEGACIÓN === */
+.menu-navegacion {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-menu {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    text-align: left;
+}
+
+.contenedor-menu h3 {
+    margin-top: 0;
+    color: #007BFF;
+}
+
+.contenedor-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.contenedor-menu li {
+    margin: 10px 0;
+}
+
+.contenedor-menu a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #e9f0ff;
+    border-left: 5px solid #007BFF;
+}
+
+.contenedor-menu a:hover {
+    background-color: #dceaff;
+    color: #0056b3;
+}
+
+/* === FOOTER === */
+.site-footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #eee;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #666;
+}
